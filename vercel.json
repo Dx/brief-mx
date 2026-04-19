@@ -1,0 +1,6 @@
+{
+  "crons": [
+    { "path": "/api/feed?category=all", "schedule": "0 12 * * *" },
+    { "path": "/api/feed?category=pol", "schedule": "5 12 * * *" }
+  ]
+}
